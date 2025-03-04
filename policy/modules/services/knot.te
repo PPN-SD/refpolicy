@@ -119,3 +119,8 @@ fs_getattr_tmpfs(knotc_t)
 miscfiles_read_localization(knotc_t)
 
 userdom_use_user_ptys(knotc_t)
+
+init_dontaudit_use_fds(knotc_t)
+term_dontaudit_use_console(knotc_t)
+
+init_use_script_ptys(knotc_t)
